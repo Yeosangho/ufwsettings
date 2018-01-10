@@ -1,0 +1,9 @@
+#! /bin/sh
+
+if [ $(whoami) = "lovelace" ] ; then
+
+        echo "user $(whoami)"
+else
+
+        echo "user $(whoami)"
+fi
